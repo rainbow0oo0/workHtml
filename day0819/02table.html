@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02table.html</title>
+    <style>
+        *
+        {
+            font-size: 20pt;
+        }
+        table {
+            border:1px solid blank;
+            border-collapse: collapse;
+        }
+
+        .mytitle{background-color: pink;}
+    </style>
+</head>
+<body>
+    table연습1
+    <table width="800" border="1" cellspacing="0" cellpadding="2">
+        
+        <tr>
+            <th colspan="3">2025년 서면증권 상반기 내역</th>            
+        </tr>
+
+        <tr bgcolor="yellowgreen">
+            <th>거래종목이름</th> <!-- table header제목 굵게 중앙맞춤 -->
+            <th>상한가</th>
+            <th>거래날짜</th>
+        </tr>
+
+        <tr>
+            <td>삼화네트웍스</td> <!-- table data = table column -->
+            <td>1546</td>
+            <td>2025-07-12</td>
+        </tr>
+
+        <tr>
+            <td>아이비전윅스</td> 
+            <td>4172</td>
+            <td>2025-08-15</td>
+        </tr>
+
+        <tr>
+            <td>인스코비</td>
+            <td>870</td>
+            <td>2025-07-30</td>
+        </tr>
+
+        <tr>
+            <td>하이드로리튬</td>
+            <td>3190</td>
+            <td>2025-08-01</td>
+        </tr>
+    </table> <p></p>
+
+    table연습2
+    <table width="800" border="0" cellspacing="0" cellpadding="2">
+        
+        <tr>
+            <th colspan="4">2025년 서면증권 상반기 내역</th>            
+        </tr>
+
+        <tr bgcolor="cadetblue">
+            <th>거래종목이름</th> <!-- table header제목 굵게 중앙맞춤 -->
+            <th>상한가</th>
+            <th>거래날짜</th>
+            <th>공지사항</th>
+        </tr>
+
+        <tr>
+            <td>삼화네트웍스</td> <!-- table data = table column -->
+            <td>1546</td>
+            <td>2025-07-12</td>
+            <th rowspan="4">
+                <img src="./images/ai.png" height="150">    
+            </th>
+        </tr>
+
+        <tr>
+            <td>삼성전자</td> 
+            <td>4172</td>
+            <td>2025-08-15</td>
+        </tr>
+
+        <tr>
+            <td>SK하이닉스</td>
+            <td>870</td>
+            <td>2025-07-30</td>
+        </tr>
+
+        <tr>
+            <td>현대제철</td>
+            <td>3190</td>
+            <td>2025-08-01</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
