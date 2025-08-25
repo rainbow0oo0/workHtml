@@ -1,0 +1,49 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 07z-index.html </title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+            background-color: lightgray;
+            margin-bottom: 3px;
+            text-align: center;
+            line-height: 100px;
+        }
+       
+        .first{
+            background-color: yellow;
+            position: relative;
+            z-index: 3;
+        }
+
+        .second{
+            background-color: plum;
+            position: relative;
+            z-index: 2;
+            margin-top: -40px;
+            margin-left: 50px;            
+        }
+
+        .third{
+            position: relative;
+            background-color: #abcdef;
+            margin-top: -30px;
+            margin-left: 120px;
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <h2> 06z-index.html 14시05분 졸려요</h2>
+
+    <div class="box first"> 1 </div>
+    <div class="box second"> 2 </div>
+    <div class="box third"> 3 </div>
+</body>
+</html>
